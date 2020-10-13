@@ -1,0 +1,10 @@
+如果连接 NLTK Downloader出现 [Error 11004]getaddrinfo failed
+
+1 打开查询IP地址的网址：https://www.ipaddress.com/     ，输入如下代码   raw.githubusercontent.com    ，按Enter   ， 得到  199.232.68.133  的IP地址
+
+2 在    C:\Windows\System32\drivers\etc   路径下找到hosts文件，并在最后添加  199.232.68.133 raw.githubusercontent.com  IP地址，并保存。
+
+3 打开命令行，输入如下命令     ipconfig/flushdns
+
+4 再打开NLTK下载器，便可以正常打开
+
